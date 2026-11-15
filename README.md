@@ -1,3 +1,23 @@
+# token-radar-entry
+
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/Arisaf7/token-radar-entry/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/Arisaf7/token-radar-entry/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+
+Token Radar — pre-token protocols ranked by implied launch value, from a sealed DefiLlama snapshot.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input <kit>/input/snapshot.json
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=stqyh92v&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
+
+---
+
 # Token Radar — pre-token protocols ranked by implied launch value
 
 A make.fun `token-radar-01` entry. `main.ts` (Node 22, standard library only) reads the
@@ -33,12 +53,6 @@ view, a live-token view, a detail drawer for every protocol (the model behind it
 the farm plan, live comparables in its category) and the calibration table the model
 computed. It answers to the URL hash (`#tab=watchlist`, `#cat=Lending`,
 `#detail=<slug>` …).
-
-## Run it
-
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input <kit>/input/snapshot.json
-```
 
 ## License
 
